@@ -627,7 +627,7 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
-			width: 100%;
+			width: 200%;
 		}
 
 			.image.fit img {
@@ -1055,11 +1055,13 @@
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
+
 	}
 
 		#wrapper2:before {
 			content: '';
 			display: block;
+			color: #f9f9f9;
 		}
 
 			#wrapper2 {
@@ -1168,14 +1170,15 @@
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
-					letter-spacing: 0.2rem;
+					letter-spacing: 0.15rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
 					text-align: center;
+					font-weight: bold;
 				}
 
 					#header2 nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 0.5);
 					}
 
 					#header2 nav ul li a:active {

@@ -57,7 +57,7 @@
 
 						<div id="logo">
 
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<img src="images/avatar.jpeg" width="150" height="200" alt="">
 
 							<h1 id="title">Henry Friedlander</h1>
 
@@ -99,9 +99,9 @@
 
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
 
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
+
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
 
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 
@@ -195,46 +195,6 @@
 
 
 
-				<!-- About Me -->
-
-					<section id="about" class="two">
-
-						<div class="container">
-
-
-
-							<header>
-
-								<h2>About Me</h2>
-
-							</header>
-
-
-
-							<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>-->
-
-							
-
-								<p>
-
-									I am passionate about using technology for the social good--to assist humans with physical disabilities and to develop learning tools used in an educational setting. For the past two summers, I worked in the brain computer interface field at the laboratory of <a href="http://www.neurobio.pitt.edu/faculty/schwartz.htm" target="_blank">Dr. Andrew Schwartz (University of Pittsburgh)</a> developing an algorithm to be used in projects evaluating volitional strength required for 3D movement of a robotic arm under different and random levels of resistance.  These robotic arms are being used in experimental primates and humans with recording and stimulating microarray electrodes implanted in their brains.  
-
-								</p>
-
-								<p>
-
-									For my final project in <a href="https://www.cs.cmu.edu/~112/" target="_blank">15-112</a>, a Carnegie Mellon Computer Science course that I took between my sophomore and junior year, I created a web based learning tool which tests users on English grammar.  I  piloted this educational tool at my school which incorporated it in several English classes and Steel City Squash incorporated it in its curriculum and  hope to incorporate it in other educational settings.
-
-								</p>
-
-
-
-						</div>
-
-					</section>
-
-
-
 
 
 				<!-- Portfolio -->
@@ -279,17 +239,24 @@
 
 							<ul>
 
-								<li><a href="#proj1">Visualization of the Deformation of 3D Objects for Use by Virtual Prosthetic Limbs</a></li>
+								<li><a href="#proj1">Developing Programs for the BURT Robotic arm for use on Primates Prosthetic Limbs</a></li>
+
+								<li><a href="#proj7">Visualization of the Deformation of 3D Objects for Use by Virtual Prosthetic Limbs</a></li>
 
 								<li><a href="#proj2">Sentence Generator Webapp</a></li>
 
 								<li><a href="#proj3">CUDA-Accelerated Lattice Boltzmann Simulator</a></li>
+
+								<li><a href="#proj8">Neural Network Modeling of the Stock Market</a></li>
 
 								<li><a href="#proj4">Modeling Diffusion Rates of a Gas in an Enclosed Space</a></li>
 
 								<li><a href="#proj5">Shady Side Academy App</a></li>
 
 								<li><a href="#proj6">Computer Architecture: Independent Study with Sol Boucher</a></li>
+
+								
+
 
 
 
@@ -316,6 +283,8 @@
 								<h4 class="proj_header">Developing Programs for the BURT Robotic arm for use on Primates Prosthetic Limbs</h4>
 
 								<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
+
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/6tyhP9qd1RA" frameborder="0" allowfullscreen></iframe>
 
 								<p>This summer, I am working in the Brain Computer Interface Laboratory of Dr. Andrew Schwartz (University of Pittsburgh) developing an algorithm to be used in projects evaluating volitional strength required for 3D movement of a robotic arm under different and random levels of resistance. Currently, the Schwartz Lab has developed a brain-controlled prosthetic arm which can realistically execute 3-dimensional motion and provide the user with basic sensory feedback.  Neuronal information is decoded by microelectrodes implanted in the brain in the motor and sensory cortex which through complex computational analysis produces motion of a robotic arm. One of the next frontiers for this research is to understand how the brain reacts to uncertainty. For example, the current prototype of the human controlled robotic arm is unable to titrate the force required for different types of actions. In other words, subjects are uncertain as to exactly how much force is necessary to grip an object to not only ensure that it does not fall through their grip but also that it is not crushed due to a too firm grip. Previous research has shown that humans increase accuracy by stiffening their muscles. Therefore, to address uncertainty in prosthetics, the lab strives to develop a model for how and when the brain regulates timing and anatomical location of muscle stiffening.</p>
 
@@ -362,13 +331,13 @@
 
 								<h4 class="proj_header">CUDA-Accelerated Lattice Boltzmann Simulator</h4>
 
+								<iframe src="https://drive.google.com/file/d/0B23gPe7-eP1iMFh5ZTBtTVowZDQ/preview" width="320" height="400" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;" ></iframe>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/MSMGGoP24Hw" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;" frameborder="0" allowfullscreen></iframe>
+								<p style="clear: both;">
+
 								<p>I used the CUDA and OpenGL packages to graphically accelerate the Lattice-Boltzmann Method (LBM) Algorithms. With parallelization and efficient memory usage, considerable optimization and efficiency is possible with LBM simulation. In this simulation, constant 2-dimensional fluid flow through a medium was modeled, and at every lattice node the fluid’s curl, probabilistic velocity vectors, and pressure are calculated and available to be plotted on the screen. Work performed in collaboration with <a class="external-link" href="http://tomscherlis.com/portfolio/" target="_blank">Tom Scherlis</a></p>
 
-								<p><a class="external-link" href="https://github.com/henryfriedlander/CUDA-LBM-simulator" target="_blank">View Code on Github</a> |
-
-									<a class="external-link" href="https://github.com/henryfriedlander/CUDA-LBM-simulator/blob/master/Lattice-Boltzmann%20Algorithm%20Using%20GPU%20Acceleration.pdf" target="_blank">View Paper</a> |
-
-									<a class="external-link" href="https://www.youtube.com/watch?v=MSMGGoP24Hw">View Video</a></p>
+								<p><a class="external-link" href="https://github.com/henryfriedlander/CUDA-LBM-simulator" target="_blank">View Code on Github</a>
 
 							</article>
 
@@ -380,7 +349,17 @@
 
 								<h4 class="proj_header">Modeling Diffusion Rates of a Gas in an Enclosed Space</h4>
 
-								<p>Identified a relationship between the pressure of a certain gas and diffusive flux in a closed system. With Fick’s First Law of Diffusion as basis for calculations, we used a first order differential equation to discern ideal, theorized relationship between the two parameters. We designed and performed an experiment utilizing diffusion of CO2 into air, confirming the theoretical predictions. Worked in collaboration with Chirag Kulkarni and Haoran Fei.</p>
+
+								<img src="http://i.imgur.com/89pqAje.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;">
+								
+								<img src="http://i.imgur.com/zgTOgmc.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;">
+								<p style="clear: both;">
+
+
+								<iframe src="https://drive.google.com/file/d/0B11kyDS-6Y2uMlVULVJSTDJDSHM/preview" width="640" height="480"></iframe>
+
+
+								<p>I worked to identify a relationship between the pressure of a certain gas and diffusive flux in a closed system. With Fick’s First Law of Diffusion as basis for calculations, we used a first order differential equation to discern ideal, theorized relationship between the two parameters. We designed and performed an experiment utilizing diffusion of CO2 into air, confirming the theoretical predictions.</p>
 
 								<p>
 									<!--<a class="external-link" href="#" target="_blank">View Code on Github</a> |-->
@@ -413,11 +392,44 @@
 
 							<article id="proj6">
 
-								<h4>Computer Architecture: Independent Study with Sol Boucher</h4>
+								<h4 class="proj_header">Computer Architecture: Independent Study with Sol Boucher</h4>
 
-								<p>During an independent study with <a class="external-link" href="http://www.cs.cmu.edu/~sboucher/" target="_blank">Sol Boucher</a>, I created a CPU according to the preliminary RISC-V architecture using Logisim, a digital logic circuit simulator. To complete my CPU, I separately wired an ALU, a datapath, a register file, and an instruction decoder. After I finished wiring my CPU, I wrote a RISC-V assembly language implementation of a string reversing program.</p>
+								<img src="http://i.imgur.com/C1buttY.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+								
+								<img src="http://i.imgur.com/uDyJ8YJ.png" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
+								<p style="clear: both;">
+
+								During an independent study with a PhD student a Carnegie Mellon <a class="external-link" href="http://www.cs.cmu.edu/~sboucher/" target="_blank">Sol Boucher</a>, I created a CPU according to the preliminary RISC-V architecture using Logisim, a digital logic circuit simulator. To complete my CPU, I separately wired an ALU, a datapath, a register file, and an instruction decoder. After I finished wiring my CPU, I wrote a RISC-V assembly language implementation of a string reversing program.</p>
 
 								<p><a class="external-link" href="https://github.com/henryfriedlander/Logisim-CPU" target="_blank">View Code on Github</a></p>
+
+							</article>
+
+							<article id="proj7">
+
+								<h4>Visualization of the Deformation of 3D Objects for Use by Virtual Prosthetic Limbs</h4>
+
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/K0LGMOey8yU" frameborder="0" allowfullscreen></iframe>
+
+								<p>During the summer of 2016, in the Schwartz Lab, using MatLab, HOOPS, and ultimately Unity, I worked in the Brain Computer Interface Laboratory of Dr. Andrew Schwartz (University of Pittsburgh) with Hongwei Mao to understand the forces behind human delicate object manipulation. Currently, the Schwartz Lab has developed a brain-controlled prosthetic arm which can realistically execute 3-dimensional motion and provide the user with basic sensory feedback. Neuronal information is decoded by microelectrodes implanted in the brain in the motor and sensory cortex which through complex computational analysis produces motion of a robotic arm. Although a user of the arm can instruct the arm to move in a particular direction, that user cannot specify the force required to move that specified location – the machine is instructed by a program the speed and force. One of the next frontiers for this research is to understand how the brain encodes force especially in the context of object manipulation. For example, the current prototype of the human controlled robotic arm is unable to titrate the force required for different types of actions. In other words, subjects are uncertain as to exactly how much force is necessary to grip an object to not only ensure that it does not fall through their grip but also that it is not crushed due to a too firm grip. Therefore, to address uncertainty in prosthetics, the lab strives to develop a model for how and when the brain regulates accurately forces in object manipulation. 
+
+								My group’s part was to develop a virtual space which a virtual finger can realistically deform an object by exerting a force on it and an accompanying learning algorithm to observe how the brain encodes specific forces and create a model for that force. The program registers the collection of forces applied to the object and using Finite Element Analysis displays the deformed object at each time step and provides inertial feedback to the finger. To develop an accurate relationship the force required to deform the object to a certain degree and firing rate of neurons, the program is complete control of the finger, and the person simply observes. However, as the person observes this movement, they are instructed to think about the same movement. During this time, the algorithm develops a baseline relationship between neuronal firing rate and force. Then, the algorithm considers 90% of the outlined finger movement and 10% according to the developed relationship. Over time, the user gains more control of the finger and eventually when the user gains 100% control a relationship can be identified. This program will be in use during the summer and fall of 2017 for testing. </p>
+
+								<p><a class="external-link" href="https://github.com/henryfriedlander/Logisim-CPU" target="_blank">View Code on Github</a></p>
+
+							</article>
+
+							<article id="proj8">
+
+								<h4 class="proj_header">Neural Network Modeling of the Stock Market</h4>
+
+								<iframe src="https://drive.google.com/file/d/0B11kyDS-6Y2uQWVmOXJrTlI4bDA/preview" width="320" height="400" style="float: center;"></iframe>
+
+								<p style="clear: both;">
+
+								<p>I created a deep learning neural model the stock market. The Sigmoid function was used for the activation function. I structured my network so that it had an input layer, 2 hidden layers, and a an output layer with each hidden layer containing 20 neurons. Our model worked with an average percent error of 0.7% over four week for the NASDAQ. We found that the network predicted stock indexes much better than individual stocks.</p>
+
+								<p><a class="external-link" href="https://github.com/henryfriedlander/Neural-Network" target="_blank">View Code on Github</a></p>
 
 							</article>
 
@@ -430,6 +442,44 @@
 			</div>
 
 
+
+
+
+						</div>
+
+					</section>
+
+						<!-- About Me -->
+
+					<section id="about" class="two">
+
+						<div class="container">
+
+
+
+							<header>
+
+								<h2>About Me</h2>
+
+							</header>
+
+
+
+							<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>-->
+
+							
+
+								<p>
+
+									I am passionate about using technology for the social good--to assist humans with physical disabilities and to develop learning tools used in an educational setting. For the past two summers, I worked in the brain computer interface field at the laboratory of <a href="http://www.neurobio.pitt.edu/faculty/schwartz.htm" target="_blank">Dr. Andrew Schwartz (University of Pittsburgh)</a> developing an algorithm to be used in projects evaluating volitional strength required for 3D movement of a robotic arm under different and random levels of resistance.  These robotic arms are being used in experimental primates and humans with recording and stimulating microarray electrodes implanted in their brains.  
+
+								</p>
+
+								<p>
+
+									For my final project in <a href="https://www.cs.cmu.edu/~112/" target="_blank">15-112</a>, a Carnegie Mellon Computer Science course that I took between my sophomore and junior year, I created a web based learning tool which tests users on English grammar.  I  piloted this educational tool at my school which incorporated it in several English classes and Steel City Squash incorporated it in its curriculum and  hope to incorporate it in other educational settings.
+
+								</p>
 
 
 
